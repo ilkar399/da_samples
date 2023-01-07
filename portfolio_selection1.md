@@ -1,15 +1,15 @@
-# Проекты для портфолио со ссылками. Все проекты со ссылками и описанием
+# Выбранные для портфолио проекты со ссылками.
 
 ## Общее описание проектов и ссылки
-| Ссылка/путь                                    | Описание                                                                         |
-| ---------------------------------------------- | -------------------------------------------------------------------------------- |
-| /ab_test/notebook.ipynb                        | Проведение A/B теста                                                             |
-| /geo_recommendations/notebook.ipynb            | Исследовательский анализ, геоанализ, регрессии, рекомендации                     |
+| Ссылка/путь                                    | Описание                                                                                                                                    |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| /ab_test/notebook.ipynb                        | Проведение A/B теста                                                                                                                        |
+| /geo_recommendations/notebook.ipynb            | Исследовательский анализ, геоанализ, регрессии, рекомендации                                                                                |
 | /sql/description.md                            | Проект по SQL - источник в Kaggle, PostgreSQL база на основе проекта [по сбору данных из Steam](https://github.com/ilkar399/steam_analysis) |
-| /clickhouse/description.md                     | **WIP** Рабочий проект по анализу логов с помощью Clickhouse                     |
-| https://github.com/ilkar399/steam_analysis     | Импорт и анализ игр, Python, pandas, plotly                                      |
-| https://github.com/ilkar399/CK3DLCReviews      | Анализ обзоров DLC к Crusader Kings 3, R, Tableau                                |
-| https://github.com/ilkar399/HHAnalystVacancies | Анализ вакансий с Headhunter, Python, API, DataLense, Pandas                     |
+| /clickhouse/description.md                     | **WIP** Рабочий проект, примерная структура проекта, БД и запросы                                                                           |
+| https://github.com/ilkar399/steam_analysis     | Импорт и анализ игр, Python, pandas, plotly                                                                                                 |
+| https://github.com/ilkar399/CK3DLCReviews      | Анализ обзоров DLC к Crusader Kings 3, R, Tableau                                                                                           |
+| https://github.com/ilkar399/HHAnalystVacancies | Анализ вакансий с Headhunter, Python, API, DataLense, Pandas                                                                                |
 
 ## Детальные описания проектов
 
@@ -25,7 +25,7 @@
 
 Тренировочный проект по SQL. Создание базы данных из датасета [по сбору данных из Steam](https://github.com/ilkar399/steam_analysis). Типовые запросы. PostgreSQL, Join'ы, Оконные функции, CTE.
 
-### Рабочий проект по анализу логов с помощью Clickhouse
+### Рабочий проект, примерная структура проекта, БД и запросы
 
 **WIP**
 
