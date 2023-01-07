@@ -1,14 +1,14 @@
 # Выбранные для портфолио проекты со ссылками.
 
 ## Общее описание проектов и ссылки
-| Ссылка/путь                                                                | Описание                                                                                                                                    |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [/ab_test/notebook.ipynb](/ab_test/notebook.ipynb)                         | Проведение A/B теста                                                                                                                        |
-| [/geo_recommendations/notebook.ipynb](/geo_recommendations/notebook.ipynb) | Исследовательский анализ, геоанализ, регрессии, рекомендации                                                                                |
-| [/sql/description.md](/sql/description.md)                                 | Проект по SQL - источник в Kaggle, PostgreSQL база на основе проекта [по сбору данных из Steam](https://github.com/ilkar399/steam_analysis) |
-| https://github.com/ilkar399/steam_analysis                                 | Импорт и анализ игр, Python, pandas, plotly                                                                                                 |
-| https://github.com/ilkar399/CK3DLCReviews                                  | Анализ обзоров DLC к Crusader Kings 3, R, Tableau                                                                                           |
-| https://github.com/ilkar399/HHAnalystVacancies                             | Анализ вакансий с Headhunter, Python, API, DataLense, Pandas                                                                                |
+| Ссылка/путь                                                                                                                                 | Описание                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [/ab_test/notebook.ipynb](https://nbviewer.org/github/ilkar399/da_samples/blob/main/ab_test/notebook.ipynb)                                 | Проведение A/B теста                                                                                                                        |
+| [/geo_recommendations/notebook.ipynb](https://nbviewer.jupyter.org/github/ilkar399/da_samples/blob/main/geo_recommendations/notebook.ipynb) | Исследовательский анализ, геоанализ, регрессии, рекомендации                                                                                |
+| [/sql/description.md](/sql/description.md)                                                                                                  | Проект по SQL - источник в Kaggle, PostgreSQL база на основе проекта [по сбору данных из Steam](https://github.com/ilkar399/steam_analysis) |
+| https://github.com/ilkar399/steam_analysis                                                                                                  | Импорт и анализ игр, Python, pandas, plotly                                                                                                 |
+| https://github.com/ilkar399/CK3DLCReviews                                                                                                   | Анализ обзоров DLC к Crusader Kings 3, R, Tableau                                                                                           |
+| https://github.com/ilkar399/HHAnalystVacancies                                                                                              | Анализ вакансий с Headhunter, Python, API, DataLense, Pandas                                                                                |
 
 ## Детальные описания проектов
 
@@ -20,7 +20,7 @@
 
 Тренировочный проект по анализу заведений общественного питания Москвы. Pandas, Plotly,
 
-### Проект по PostgreSQL - источник в Kaggle, создать БД со схемой и кучку запросов
+### Проект по PostgreSQL - источник в Kaggle, БД со схемой и образцы запросов
 
 Тренировочный проект по SQL. Создание базы данных из датасета [по сбору данных из Steam](https://github.com/ilkar399/steam_analysis). Типовые запросы. PostgreSQL, Join'ы, Оконные функции, CTE.
 
