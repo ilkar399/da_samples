@@ -1,44 +1,12 @@
 # Проекты для портфолио со ссылками. Все проекты со ссылками и описанием
 
 ## Общее описание проектов и ссылки
-| Ссылка/путь                                                                                                                                 | Описание                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [/ab_test/notebook.ipynb](https://nbviewer.org/github/ilkar399/da_samples/blob/main/ab_test/notebook.ipynb)                                 | Проведение A/B теста                                                                                                                        |
-| [/geo_recommendations/notebook.ipynb](https://nbviewer.jupyter.org/github/ilkar399/da_samples/blob/main/geo_recommendations/notebook.ipynb) | Исследовательский анализ, геоанализ, регрессии, рекомендации                                                                                |
-| [/sql/description.md](/sql/description.md)                                                                                                  | Проект по SQL - источник в Kaggle, PostgreSQL база на основе проекта [по сбору данных из Steam](https://github.com/ilkar399/steam_analysis) |
-| https://github.com/ilkar399/steam_analysis                                                                                                  | Импорт и анализ игр, Python, pandas, plotly                                                                                                 |
-| https://github.com/ilkar399/CK3DLCReviews                                                                                                   | Анализ обзоров DLC к Crusader Kings 3, R, Tableau                                                                                           |
-| https://github.com/ilkar399/HHAnalystVacancies                                                                                              | Анализ вакансий с Headhunter, Python, API, DataLense, Pandas                                                                                |
-| /clickhouse/description.md                                                                                                                  | **WIP** Рабочий проект по анализу логов с помощью Clickhouse                                                                                |
-
-## Детальные описания проектов
-
-### Проведение A/B теста
-
-Тренировочный проект по анализу результатов A/B тестирования. Pandas, Seaborn, Plotly
-
-### Исследовательский анализ, геоанализ, регрессии, рекомендации
-
-Тренировочный проект по анализу заведений общественного питания Москвы. Pandas, Plotly,
-
-### Проект по PostgreSQL - источник в Kaggle, БД со схемой и образцы запросов
-
-Тренировочный проект по SQL. Создание базы данных из датасета [по сбору данных из Steam](https://github.com/ilkar399/steam_analysis). Типовые запросы. PostgreSQL, Join'ы, Оконные функции, CTE.
-
-### Рабочий проект по анализу логов с помощью Clickhouse
-
-**WIP**
-
-Частично аналогичный рабочему прооекту по анализу логов использованием пайплайна Logstash -> Clickhouse -> Grafana. Сделан на открытого датасета Clickhouse.
-
-### Импорт и анализ компьютерных игр, Python, Pandas, plotly, API
-
-Сбор информации о компьютерных играх из Steam и SteamSpy через обзор, трансформация данных в Pandas и их анализ с использованием Pandas и Plotly.
-
-### Анализ обзоров DLC к Crusader Kings 3, R, Tableau, API
-
-Пет-проект, сбор обзоров к компьютерной игре Crusader Kings 3 и DLC из Steam через API, их анализ трансформация и анализ в R и создание обзорного дашборда в Tableau.
-
-### Анализу вакансий с Headhunter, Python, API, DataLense, Pandas
-
-Сбор, анализ и обновляемый дашборд по вакансиям аналитиков в DataLense.
+| Название                                                                                                                                                                                                                                                                                                    | Цель/Задачи                                                                                                                                                                                                                   | Инструменты                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| [Проведение AB теста](/%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20AB%20%D1%82%D0%B5%D1%81%D1%82%D0%B0/description.md)                                                                                                                                                                   | Тренировочный проект по оценке результатов AB-тестирования с ипользованием Python                                                                                                                                             | Python, Pandas, Seaborn, scipy          |
+| [Общественное питание - рекомендации](/%D0%9E%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5%20-%20%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8/description.md) | Исследовательский анализ заведений общественного питания Москвы. Рекомендации по геоанализу, картографии.                                                                                                                     | Python, Pandas, Plotly                  |
+| [SQL - Анализ игр](/SQL%20-%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B8%D0%B3%D1%80/description.md)                                                                                                                                                                                                     | Тренировочный проект по анализу данных компьютерных игр с использованием PostgreSQL. PostgreSQL база на основе проекта [по сбору данных из Steam](https://github.com/ilkar399/steam_analysis)                                 | PostgreSQL                              |
+| [Компьютерные игры из Steam](https://github.com/ilkar399/steam_analysis)                                                                                                                                                                                                                                    | Импорт и анализ данных компьютерных игр из Steam и SteamSpy                                                                                                                                                                   | Python, Pandas, Plotly, API, PostgreSQL |
+| [Анализ обзоров DLC к Crusader Kings](https://github.com/ilkar399/CK3DLCReviews)                                                                                                                                                                                                                            | Анализ пользовательских обзоров DLC к Crusader Kings 3, исследование различных пользователей, динамика, построение дашбордов                                                                                                  | R, Tableau                              |
+| [Анализ вакансий с Headhunter](https://github.com/ilkar399/HHAnalystVacancies)                                                                                                                                                                                                                              | Получение и анализ вакансий аналитиков в HeadHunter. Построение дашборда с динамикой и данным по вакансиям в DataLens                                                                                                         | Python, API, Yandex DataLens, Pandas    |
+| [Clickhouse - Анализ объявлений недвижимости](/Clickhouse%20-%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8/description.md)                                              | Импорт и анализ датасета объявлений недвижимости из [датасета на Kaggle](https://www.kaggle.com/datasets/mrdaniilak/russia-real-estate-2021) с использованием функций Clickhouse. Исследовательский анализ, тренды, прогнозы. | Clickhouse, Docker                      |
